@@ -17,6 +17,4 @@ body {
 }
 
 .navbar ul li:hover, .top-nav ul li:hover a {
-    background-color: #1f2e59; /* Changing background color on hover */
-    color: white;
 }
