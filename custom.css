@@ -1,4 +1,7 @@
-  .btn-primary {
+ 
+ 
+ /* Overiding Bootsrap primary color for custom color. */
+ .btn-primary {
         background-color: #3e4a78 !important; /* Your desired color */
         border-color: #3e4a78 !important; /* Match border color */
     }
@@ -12,19 +15,64 @@
         color: #3e4a78 !important;
     }
 
+/* Navbar overide with custom colors. */
+      /* In your custom.css file or a <style> block */
+    .navbar-nav .nav-link {
+        background-color: #3e4a78; /* Set your default link color */
+        transition: color 0.3s ease; /* Optional: for a smooth transition */
+    }
+
+    .navbar-nav .nav-link:hover {
+        background-color: #1f2e59; /* Set your desired hover color */
+    }
+
     /* Add overrides for other elements using the primary color, such as alerts, badges, etc. */
     .bg-primary {
         background-color: #3e4a78 !important;
     }
 
+ /* Overiding Bootsrap warning color for custom color. */
+ .btn-warning {
+        background-color: #faf9f6 !important; /* Your desired color */
+        border-color: #faf9f6 !important; /* Match border color */
+    }
+
+    .btn-warning:hover {
+        background-color: #faf9f6 !important; /* Slightly darker for hover */
+        border-color: #faf9f6 !important;
+    }
+
+    .text-warning {
+        color: #faf9f6 !important;
+    }
+    
+/* Dropdown menu overide with custom colors. */
+/* Add overrides for other elements using the primary color, such as alerts, badges, etc. */
+    .bg-warning {
+        background-color: #faf9f6 !important;
+    }
+    
+    .dropdown-menu .dropdown-item {
+        background-color: #faf9f6; /* Set your default link color */
+        transition: color 0.3s ease; /* Optional: for a smooth transition */
+    }
+
+    .dropdown-menu .dropdown-item:hover {
+        background-color: #f0ede6; /* Set your desired hover color */
+        color: black;
+    }
+
+/* Overiding Bootsrap background body color for custom color. */
     body {
-        background-color: #f5efe2; /* Replace with your desired color */
+        background-color: #e8dcc3; /* Replace with your desired color */
     }
 
     :root {
-        --bs-body-bg: #f5efe2; /* Replace with your desired color */
+        --bs-body-bg: #e8dcc3; /* Replace with your desired color */
     }
 
        body {
-        background-color: #f5efe2 !important;
+        background-color: #e8dcc3 !important;
     }
+
+
