@@ -1,0 +1,30 @@
+  .btn-primary {
+        background-color: #3e4a78 !important; /* Your desired color */
+        border-color: #3e4a78 !important; /* Match border color */
+    }
+
+    .btn-primary:hover {
+        background-color: #3e4a78 !important; /* Slightly darker for hover */
+        border-color: #3e4a78!important;
+    }
+
+    .text-primary {
+        color: #3e4a78 !important;
+    }
+
+    /* Add overrides for other elements using the primary color, such as alerts, badges, etc. */
+    .bg-primary {
+        background-color: #3e4a78 !important;
+    }
+
+    body {
+        background-color: #f5efe2; /* Replace with your desired color */
+    }
+
+    :root {
+        --bs-body-bg: #f5efe2; /* Replace with your desired color */
+    }
+
+       body {
+        background-color: #f5efe2 !important;
+    }
