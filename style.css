@@ -23,3 +23,11 @@ body {
     font-family: "brandon-grotesque", sans-serif;
     font-style: normal;
 }
+
+
+.carousel-item img {
+        max-height: 650px; /* Adjust as needed */
+        object-fit: cover; /* Prevents distortion, crops if necessary */
+        object-position: center; /* Centers the image within its container */
+    }
+
