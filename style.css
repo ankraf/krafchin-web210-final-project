@@ -42,7 +42,12 @@
     font-style: normal; 
 }
 
-
+@media (min-width: 768px) {
+    .card:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease;
+}
+}
 
 .card-text .card-title {
     font-family: "brandon-grotesque", sans-serif;
