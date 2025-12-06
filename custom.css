@@ -7,7 +7,7 @@
     }
 
     .btn-primary:hover {
-        background-color: #3e4a78 !important; /* Slightly darker for hover */
+        background-color: #1f2e59 !important; /* Slightly darker for hover */
         border-color: #3e4a78!important;
     }
 
@@ -75,4 +75,17 @@
         background-color: #e8dcc3 !important;
     }
 
+/* Overiding Bootsrap button font for custom font. */
+    .custom-btn-font {
+        font-family:  "argent-cf", serif;
+        font-weight: 400;
+        font-style: normal;  
+    }
 
+/* Overiding Bootsrap body font for custom font. */
+/* In your custom.css file, linked after Bootstrap's CSS */
+:root {
+  --bs-body-font-family: "brandon-grotesque", sans-serif;
+    font-weight: 400;
+    font-style: normal; /* Replace 'Your Custom Font' */
+}
