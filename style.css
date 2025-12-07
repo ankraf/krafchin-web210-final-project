@@ -58,3 +58,9 @@
 .footer {
     position: fixed;
 }
+
+.container {
+    font-family: "argent-cf", serif;
+    font-weight: 400;
+    font-style: normal
+}
